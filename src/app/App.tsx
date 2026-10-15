@@ -206,7 +206,7 @@ function App() {
               ? 'Try meme-market mechanics against local virtual pools. Nothing here touches a blockchain.'
               : 'Wallet reads and SPL balances are Devnet-only. Real swaps stay locked until this app can verify a supported pool.'}</p>
           </div>
-          <div className="session-chip"><span className="status-dot" />{isPractice ? 'LOCAL SESSION' : 'NETWORK CHECK REQUIRED'}</div>
+          <div className="session-chip"><span className="status-dot" />{isPractice ? 'LOCAL SESSION' : 'DEVNET ONLY'}</div>
         </section>
 
         {isPractice ? (
